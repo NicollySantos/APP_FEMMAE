@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil_1</title>
+	<link rel="stylesheet" href="perfil_1.css">	
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+	</style>
+</head>
+<body>
+ <div id="barra">
+    <img src="../imagens/logo.jpg" id="logo">
+</div>
+<div id="logotipo_box">
+	<img src="../imagens/logotipo.png" id="logotipo">
+</div>
+<div>
+	<button id="ajuda" onclick="esc_ajuda()";>AUXÍLIO</button>
+</div>
+<div id="auxilio" >
+	<table id="ajudar">
+		<tr>
+			<td class="opc"> <a href="../AJUDAR/ajudar.html">AJUDAR</a></td>
+		</tr>
+		<tr>
+			<td class="opc"><a href="../SER AJUDADO/serajudado.html">SER AJUDADO</a></td>
+		</tr>
+	</table>
+</div>
+<section>
+	<div class="container">
+		<a href="../CONTEUDOS/CONTEUDOSfemaeOFC.html" class="btn btn-2">Conteudos</a>
+		<a  href="../BAIXADOS/baixados.html" class="btn btn-3">Meus Salvos</a> 
+		<a href="../FEED/FEEDNOTSFEMAE.html" class="btn btn-4">Feed</a> 
+		<a href="../CHAT/chat.html" class="btn btn-5">Chat</a>
+		<a href="perfil_1.html" class="btn btn-6">Perfil</a>
+	</div>
+</section>
+<div id="nomes">
+	<div id="nome" class="linha">
+		<p id="no_chat">Perfil</p>
+	</div>
+</div>
+<div id="contatos">
+	<div id="dados">
+		<p id="name">Adriana Matos</p>
+		<p id="user">@adri_matos</p> 
+		<p id="texto">Uma luta coletiva para promover a igualdade de gênero no mundo!!! </br> 
+			Estou disponível para conversas construtivas em apoio a tod@s que necessitarem. </p>
+		<p id="salvos">Salvos: <span>3</span> </p>	
+		<p id="local">Brasil </p>	
+		<div id="imagem">
+			<img src="local.png" alt="" id="localiza">
+		</div>
+	</div>							
+</div>
+<div id="perfil" >
+	<img src="../imagens/rosto_mulher_1.png" id="ft_perfil">
+</div>								
+<div id="botao">
+	<a href="../PERFIL/perfil.html"><button id="editar">Editar Perfil</button></a>      							
+</div>
+<div onclick="duvidas()">
+	<button id="duvidas">?</button>
+</div>
+<div id="duvida">
+	<table id="tabela">
+		<tr onclick="fecha()">
+            <td class="opcoes" >Sair</td>
+          </tr> 
+		<tr>
+			<td class="opcoes">Treinamento</td>
+		</tr>
+		<tr>
+			<td class="opcoes">Fale Conosco</td>
+		</tr>
+		<tr>
+			<td class="opcoes">Dados do Aplicativo</td>
+		</tr>
+		<tr>
+			<td class="opcoes">Política de Privacidade</td>
+		</tr>
+	</table>
+</div>  							 
+<!--div id="conteudo">							
+	<form>
+		<div id="level">
+			Defina seu nível de satisfação até agora com nossa página:<br>
+			pouco satisfeito
+			<input type="range" name="satisfacao" min="0" max="10">
+			muito satisfeito
+		</div>
+	</form>
+</div-->
+<script src="perfil_1.js"></script>
+</body>
+</html>

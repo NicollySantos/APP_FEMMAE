@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajudar</title>
+    <link rel="stylesheet" href="serajudado.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+    </style>
+</head>
+<body>
+ <div id="barra">
+    <img src="../imagens/logo.jpg" id="logo">
+  </div>
+	<div id="logotipo_box">
+	  <img src="../imagens/logotipo.png" id="logotipo">
+	</div>
+  <div>
+    <button id="ajuda" onclick="esc_ajuda()";>AUXÍLIO</button>
+  </div>
+  <div id="auxilio" >
+      <table id="ajudar">
+        <tr>
+          <td class="opc"> <a href="../AJUDAR/ajudar.html">AJUDAR</a></td>
+      </tr>
+      <tr>
+          <td class="opc"><a href="../SER AJUDADO/serajudado.html">SER AJUDADO</a></td>
+      </tr>
+  </table>
+  </div>
+
+    <section>
+        <div class="container">
+          <div class="container">
+            <a href="../CONTEUDOS/CONTEUDOSfemaeOFC.html" class="btn btn-2">Conteudos</a>
+            <a  href="../BAIXADOS/baixados.html" class="btn btn-3">Meus Salvos</a> 
+            <a href="../FEED/FEEDNOTSFEMAE.html" class="btn btn-4">Feed</a> 
+            <a href="../CHAT/chat.html" class="btn btn-5">Chat</a>
+            <a href="../PERFIL_1/perfil_1.html" class="btn btn-6">Perfil</a>
+          </div>
+    </section>
+    <div id="contatos">
+      <div id="nome" class="linha">
+        <p id="no_chat">PEDIR AJUDA</p>
+      </div>
+      <div id="cartaz">
+        <img src="cartaz2.png" alt="" id="fundo">
+      </div>
+      <div id="area">
+        <div id="formulario" autocomplete="off">       
+          <textarea class="msg" cols="35" rows="8" placeholder="Eu preciso de ajuda..."></textarea>
+        </div>
+        <div id="botao">
+          <a href="../CHAT/chat.html"><button id="contato">Contato</button></a>      							
+        </div>
+			</div>
+    </div>
+    <div id="pedido">
+      <div class="justificado" id="um">Para ser ajudado, basta preencher o quadro abaixo e, por favor, coloque sua situação e a gravidade dela,
+        assim, proporcionaremos a </div> 
+      <div class="centralizada" id="dois">melhor opção de ajuda.</div>
+      <div class="justificado" id="tres">Esperamos que um de nossos profissionais consiga ajudar e agrade-</div> 
+      <div class="centralizada" id="quatro">cemos desde já pela confiança!</div>
+    </div>
+    <div onclick="duvidas()">
+      <button id="duvidas">?</button>
+  </div>
+  <div id="duvida">
+      <table id="tabela">
+        <tr onclick="fecha()">
+          <td class="opcoes" >Sair</td>
+        </tr> 
+          <tr>
+              <td class="opcoes">Treinamento</td>
+          </tr>
+          <tr>
+              <td class="opcoes">Fale Conosco</td>
+          </tr>
+          <tr>
+              <td class="opcoes">Dados do Aplicativo</td>
+          </tr>
+          <tr>
+              <td class="opcoes">Política de Privacidade</td>
+          </tr>
+      </table>
+  </div>
+    <script src="serajudado.js"></script>
+		
+</body>
+</html>
