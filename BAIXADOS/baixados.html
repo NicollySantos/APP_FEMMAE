@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAIXADOS</title>
+    <link rel="stylesheet" href="baixados.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+    </style>
+</head>
+<body>
+    <div id="barra">
+        <img src="imagens/logo.jpg" id="logo">
+    </div>
+    <div id="logotipo_box">
+        <img src="imagens/logotipo.png" id="logotipo">
+    </div>
+    <div>
+        <button id="ajuda" onclick="esc_ajuda()">AUXÍLIO</button>
+    </div>
+    <div id="auxilio" >
+        <table id="ajudar">
+            <tr>
+                <td class="opc"> <a href="../AJUDAR/ajudar.html">AJUDAR</a></td>
+            </tr>
+            <tr>
+                <td class="opc"><a href="../SER AJUDADO/serajudado.html">SER AJUDADO</a></td>
+            </tr>
+        </table>
+    </div>
+    <section>
+        <div class="container">
+            <a href="../CONTEUDOS/CONTEUDOSfemaeOFC.html" class="btn btn-2">Conteudos</a>
+            <a  href="baixados.html" class="btn btn-3">Meus Salvos</a> 
+            <a href="../FEED/FEEDNOTSFEMAE.html" class="btn btn-4">Feed</a> 
+            <a href="../CHAT/chat.html" class="btn btn-5">Chat</a>
+            <a href="../PERFIL_1/perfil_1.html" class="btn btn-6">Perfil</a>
+        </div>
+    </section>
+    <div id="Busca">
+        <img src="imagens/lupa.png" alt="" id="lupa"/>
+        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+        <button id="botao">Buscar</button>
+    </div>
+    <span>Meus Arquivos Salvos</span>
+    <div id="add">
+        <img src="imagens/mais.png" alt="" id="mais">
+    </div>
+    <div id="conteudos">
+        <div class="capa"  id="um">
+            <p>Feminicídio no Brasil</p> 
+        </div>
+        <div class="capa" id="dois">
+            <p>O Tabu do Feminismo</p> 
+        </div>
+        <div class="capa" id="tres">
+            <p>Femismo não é Feminismo</p>
+        </div>
+    </div>
+    <div onclick="duvidas()">
+        <button id="duvidas">?</button>
+    </div>
+    <div id="duvida">
+        <table id="tabela">
+            <tr onclick="fecha()">
+                <td class="opcoes" >Sair</td>
+              </tr> 
+            <tr>
+                <td class="opcoes">Treinamento</td>
+            </tr>
+            <tr>
+                <td class="opcoes">Fale Conosco</td>
+            </tr>
+            <tr>
+                <td class="opcoes">Dados do Aplicativo</td>
+            </tr>
+            <tr>
+                <td class="opcoes">Política de Privacidade</td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="baixados.js"></script>
+</body>
+</html>

@@ -1,0 +1,455 @@
+body{
+    margin: 0;
+    background-color:rgb(241, 128, 252);
+}
+body, html{
+    height: 100%;
+}
+#barra{
+    font: 15pt century;
+    background-color: rgb(130, 42, 165); /* rgb(144, 26, 223) */
+    color: seashell;
+    width: 100%;
+    height: 70px;
+    line-height: 200px;
+    text-align: center;
+    position: fixed;
+}
+#logo{
+    width: 55px;
+    margin-left: 20px;
+    margin-top: 7.5px;
+    float: left;
+    border-radius: 50%;
+}
+
+#fotoum{
+	width: 650px;
+    left: 610px;
+	position: absolute;
+	bottom: 40px;  
+    border-radius: 0%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 10vw;
+    margin: 0 auto;
+    min-height: 89.4vh;
+    height: 90px;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.btn {
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 15px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 0;
+    background-image: linear-gradient(to right,  #ea00ff 5%, rgb(172, 62, 245) 51%, rgb(241, 128, 252) 100%);
+          font-family: 'Zilla Slab', serif;
+}
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+} 
+section {
+    display: flex;
+    float: left;
+}
+.yellow {
+	font-family: 'Zilla Slab', serif;
+    width: 400px;
+	height:100px;
+    position: fixed;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 170px;
+}
+   
+p.b { 
+	color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: justify;
+    font-family: 'Zilla Slab', serif;
+}
+#login{
+    position: absolute;
+    top: 300px;
+    flex: 1 1 auto;
+    left: 570px;
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 8px;
+    background-image: linear-gradient(to right,  rgb(233, 190, 247) 5%,   #cf54f7 51%, rgb(233, 190, 247) 100%);
+       font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    border: 0;
+    box-shadow:2px 2px 2px rgb(233, 190, 247);
+}
+#login:hover {
+    background-position: right center; /* change the direction of the change here */
+    transform: scale(1.08);
+    transition: 0.5s;
+}  
+#ajuda{
+	position: absolute;
+	left: -10px;
+    top: 0px;
+    flex: 1 1 auto;
+    margin-left: 1220px;
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 8px;
+    background-image: linear-gradient(to right,  rgb(255, 0, 0) 5%,   #ca0202 51%, rgb(255, 0, 0) 100%);
+       font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    border: 0;
+    box-shadow:2px 2px 2px rgb(255, 255, 255);
+}
+#ajuda:hover {
+    background-position: right center; /* change the direction of the change here */
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+
+#duvidas{
+    position: absolute;
+	left: 50px;
+    top: 550px;
+    flex: 1 1 auto;
+    margin-left: 1220px;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 50px;
+    background-image: linear-gradient(to right,  rgb(233, 190, 247) 5%,   #cf54f7 51%, rgb(233, 190, 247) 100%);
+       font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    border: 0;
+    box-shadow:2px 2px 2px rgb(233, 190, 247);
+}
+#duvidas:hover {
+    background-position: right center; /* change the direction of the change here */
+    transform: scale(1.08);
+    transition: 0.5s;
+}  
+#logotipo_box{
+position: fixed;
+margin-top: -10px;
+z-index:1;
+}
+#logotipo{
+width:100px;
+padding-left: 90px;}
+
+#entrar {
+    margin: 0 auto;
+    width: 400px;
+	height: 240px;
+    padding: 1em;
+    padding-top: 1px;
+	border-radius: 0 0 25px 25px;
+	font-family: 'Zilla Slab', serif;
+    display:block;
+    margin-top: 380px;
+    position: fixed;
+    margin-left: 480px;
+    background-color: white;
+}
+
+input, textarea {
+    width: 290px;
+    height: 40px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #a700a7;
+    border-radius: 30px;
+    margin-left: 50px;
+    background-color: rgb(151, 1, 151);
+    font-size: 15px;
+    color: white;
+    padding-left: 40px;
+    font-family: 'Zilla Slab', serif;
+    box-shadow: 3px 3px 6px black;
+}
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+    padding-right: 20px;
+    text-align: center;
+ }
+ button:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: none;
+ }
+#pass{
+    margin-top: 15px;
+}
+
+input:focus, textarea:focus {
+    border-color: #f7ce17;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+#cadeado{
+    width: 20px;
+    margin-top: 25px;
+    margin-left: 60px;
+    position: fixed;
+    filter: invert(100%);
+}
+#pessoa{
+    width: 25px;
+    margin-top:-7px;
+    margin-left: 60px;
+    position: fixed;
+    filter: invert(100%);
+}
+.container {
+    display: block;
+    margin-top: 15px;
+    margin-left: 145px;
+}
+
+ #botao{
+    border:none;
+    float:left;
+    height:40px;
+    border-radius: 10px;
+    width:120px;
+    background:#ffffff;
+    color: rgb(255, 255, 255);
+    font-family: 'Zilla Slab', serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding-left: 35px;
+    padding-top: 10px;
+    box-sizing: border-box;  
+}
+#botao:hover{
+    transform: scale(0.9);
+    transition: 0.5;
+} 
+#botao:hover {
+  background-position: right center;
+}
+
+#botao {
+  background-image: linear-gradient(to right, #a700a7 15%,#fb81ff 50%, purple 100% );
+}
+#nome{
+    font-size: 25px;
+    text-align: center;
+    padding-top: -15px;
+}
+#fundo{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+#cadastrar{
+    width: 430px;
+    height: 300px;
+    background-color: rgb(240, 0, 248);
+    position: fixed;
+    margin-left: 480px;
+    border-radius: 25px 25px 0 0;
+    margin-top: 110px;
+    display: block;
+}
+#fotoum{
+    width: 350px;
+    height: 220px;
+    left:530px;
+    position: fixed;
+    top: 167px;
+    display: block;
+}
+#pergunta{
+    font-family: 'Zilla Slab', serif;
+    font-size: 25px;
+    margin-left: 80px;
+    color: white;
+}
+#usuario{
+    margin-top: -15px;
+}
+#cadastro {
+    margin: 0 auto;
+    width: 400px;
+	height: 500px;
+    padding: 1em;
+    padding-top: -5px;
+	border-radius: 50px 20px;
+	font-family: 'Zilla Slab', serif;
+	border-radius: 2em;
+    display: none;
+    top: 110px;
+    position: fixed;
+    left: 480px;
+    background-color: white;
+    box-shadow: 3px 3px 6px black;
+    box-shadow: 1px 1px 15px 3px rgba(139, 4, 117, 0.815) inset;
+}
+label {
+    display: block;
+    width: 200px;
+    text-align: left;
+    margin-left: 50px;
+}
+#seta {
+    position: fixed;
+    top: 140px;
+    left: 510px;
+}
+#sair{
+    width: 20px;
+    filter: invert(100%);
+    transition: 0.5s;
+}
+#sair:hover{
+    transform: scale(0.8);
+    transition: 0.6s;
+} 
+#titulo{
+    font-size: 25px;
+    text-align: center;
+    margin-top: -10px;
+    text-shadow: 2px 2px 8px yellow;
+}
+
+#botao{
+    border:none;
+    height:40px;
+    border-radius: 10px;
+    width:120px;
+    background:#ffffff;
+    color: rgb(255, 255, 255);
+    font-family: 'Zilla Slab', serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding-left: 5px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 4;
+    text-align: center;
+}
+#botao:hover{
+    transform: scale(0.9);
+    transition: 0.5;
+} 
+#botao:hover {
+  background-position: right center;
+}
+
+#botao {
+  background-image: linear-gradient(to right, #a700a7 15%,#fb81ff 50%, purple 100% );
+}
+a:link {
+
+    text-decoration: none;}
+.preencher{
+    margin-top: 5px;
+}
+.espaco{
+    padding-left: 40px;    
+}
+#img_nome{
+    position: fixed;
+    width: 20px;
+    margin-left: 60px;
+    margin-top: 30px;
+    filter: invert(100%);
+}
+#img_user{
+    position: fixed;
+    width: 25px;
+    margin-left: 60px;
+    margin-top: 30px;
+    filter: invert(100%);
+}
+#img_local{
+    position: fixed;
+    width: 20px;
+    margin-left: 60px;
+    margin-top: 35px;
+    filter: invert(100%);
+}
+#img_nasc{
+    position: fixed;
+    width: 20px;
+    margin-left: 60px;
+    margin-top: 35px;
+    filter: invert(100%);
+}
+#img_email{
+    position: fixed;
+    width: 20px;
+    margin-left: 60px;
+    margin-top: 35px;
+    filter: invert(100%);
+}
+#img_senha{
+    position: fixed;
+    width: 20px;
+    margin-left: 60px;
+    margin-top: 35px;
+    filter: invert(100%);
+}
+#seta_volta{
+    position: fixed;
+    top: 140px;
+    left: 500px;
+}
+#voltar{
+    width: 20px;
+    transition: 0.5s;
+}
+#voltar:hover{
+    transform: scale(0.8);
+    transition: 0.6s;
+} 
+
+

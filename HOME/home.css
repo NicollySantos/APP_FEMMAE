@@ -1,0 +1,319 @@
+body{
+    margin: 0;
+    background-color:rgb(241, 128, 252);
+}
+body, html{
+    height: 100%;
+}
+#barra{
+    font: 15pt century;
+    background-color: rgb(130, 42, 165); /* rgb(144, 26, 223) */
+    color: seashell;
+    width: 100%;
+    height: 70px;
+    line-height: 200px;
+    text-align: center;
+    position: fixed;
+}
+#logo{
+    width: 55px;
+    margin-left: 20px;
+    margin-top: 7.5px;
+    float: left;
+    border-radius: 50%;
+}
+
+#fotoum{
+    width: 710px;
+	bottom: 40px;  
+    border-radius: 0%;
+    float: right;
+    margin-top: 85px;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 10vw;
+    margin: 0 auto;
+    min-height: 89.4vh;
+    height: 90px;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.btn {
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 15px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 0;
+    background-image: linear-gradient(to right,  #ea00ff 5%, rgb(172, 62, 245) 51%, rgb(241, 128, 252) 100%);
+          font-family: 'Zilla Slab', serif;
+}
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+} 
+section {
+    display: flex;
+    float: left;
+}
+.yellow {
+	font-family: 'Zilla Slab', serif;
+    width: 600px;
+	height:100px;
+    position: fixed;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 170px;
+    color: white;
+}
+   
+p.b { 
+	color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Zilla Slab', serif;
+}
+#login{
+    position: absolute;
+    top: 470px;
+    flex: 1 1 auto;
+    margin-left: 120px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 35px;
+    background-image: linear-gradient(to right,  rgb(137, 17, 177) 5%,   #9f31c4 51%, rgb(78, 1, 104) 100%);
+       font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    border: 0;
+    box-shadow:2px 2px 2px rgb(233, 190, 247);
+}
+#login:hover {
+    background-position: right center; /* change the direction of the change here */
+    transform: scale(1.08);
+    transition: 0.5s;
+}  
+#ajuda{
+	position: absolute;
+	left: -10px;
+    top: 0px;
+    flex: 1 1 auto;
+    margin-left: 1220px;
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 8px;
+    background-image: linear-gradient(to right,  rgb(255, 0, 0) 5%,   #ca0202 51%, rgb(255, 0, 0) 100%);
+       font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    border: 0;
+    box-shadow:2px 2px 2px rgb(255, 255, 255);
+}
+#ajuda:hover {
+    background-position: right center; /* change the direction of the change here */
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+
+#duvidas{
+    position: absolute;
+	left: 50px;
+    top: 550px;
+    flex: 1 1 auto;
+    margin-left: 1220px;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 50px;
+    background-image: linear-gradient(to right,  rgb(233, 190, 247) 5%,   #cf54f7 51%, rgb(233, 190, 247) 100%);
+       font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    border: 0;
+    box-shadow:2px 2px 2px rgb(233, 190, 247);
+}
+#duvidas:hover {
+    background-position: right center; /* change the direction of the change here */
+    transform: scale(1.08);
+    transition: 0.5s;
+}  
+#logotipo_box{
+position: fixed;
+margin-top: -10px;
+z-index:1;
+}
+#logotipo{
+width:100px;
+padding-left: 90px;}
+form {
+    margin: 0 auto;
+    width: 400px;
+	height: 350px;
+    padding: 1em;
+    padding-top: -5px;
+    border: 3px solid #f7ce17;
+	border-radius: 50px 20px;
+	   font-family: 'Zilla Slab', serif;
+	border-radius: 2em;
+    display: none;
+    margin-top: 180px;
+    position: fixed;
+    margin-left: 110px;
+    background-color: white;
+}
+
+form div + div {
+    margin-top: 5px;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 200px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #a700a7;
+}
+
+input:focus, textarea:focus {
+    border-color: #f7ce17;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+.container {
+    display: block;
+    margin-top: 15px;
+    margin-left: 125px;
+}
+
+ #botao{
+    border:none;
+    float:left;
+    height:50px;
+    border-radius: 10px;
+    width:150px;
+    font-weight:bold;
+    background:#ffffff;
+    color: rgb(255, 255, 255);
+       font-family: 'Zilla Slab', serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding-left: 47px;
+    padding-top: 15px;
+    box-sizing: border-box;  
+}
+#botao:hover{
+    transform: scale(0.9);
+    transition: 0.5;
+} 
+#botao:hover {
+  background-position: right center;
+}
+
+#botao {
+  background-image: linear-gradient(to right, #f7ce17 0%,  #a700a7 50%);
+}
+#nome{
+    font-size: 25px;
+    text-align: center;
+}
+span{
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.527);
+}
+#duvidas{
+    position: absolute;
+    top: 0px;
+    flex: 1 1 auto;
+    margin-left: 1235px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 50px;
+    background-image: linear-gradient(to right,  rgb(216, 106, 253) 5%,  rgb(175, 145, 185) 100%);
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    border: 0;
+    box-shadow:2px 2px 2px rgb(233, 190, 247);
+}
+#duvidas:hover {
+    background-position: right center; /* change the direction of the change here */
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+#duvida {
+    display: none;
+    position: fixed;
+    right: 5px;
+    top: 70px;
+    background-color: rgba(115, 0, 138, 0.74);
+    z-index: 2;
+    border-radius: 10px;
+    width: 240px;
+    height: 110px;
+    font-family: 'Zilla Slab', serif;
+    box-shadow:2px 2px 8px purple;
+    }
+#tabela{
+    text-align: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    font-size: 18px;
+}
+.opcoes{
+    transition: background-color 0.5s;
+}
+.opcoes:hover{
+    background-color:rgba(212, 0, 255, 0.466);
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;
+} 

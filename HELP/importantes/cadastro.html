@@ -1,0 +1,41 @@
+<html>
+<head>
+<body>
+<header>
+<body>
+ <div id="barra">
+ <img src="femae logo ver3.png" id="logo">
+    </div>
+	<div id="logotipo_box">
+	<img src="logotipo.png" id="logotipo">
+	</div>
+</header>
+<link rel="stylesheet" type="text/css" href="stylecadastrofemae.css"/>
+<h1>Cadastro</h1>
+<form action="/pagina-processa-dados-do-form" method="post">
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="usuario_nome"/>
+    </div>
+    <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="usuario_email"/>
+    </div>
+    <div>
+        <label for="Nome de Usuário">Nome de Usuário</label>
+        <input type="Nome de Usuário" id="Nome de Usuário" name="usuario_nomedeusuario"/>
+    </div>
+	<div>
+        <label for="data de nascimento">Data de Nascimento:</label>
+        <input type="text" id="data de nascimento" name="usuario_idade"/>
+    </div>
+	<div>
+    <label for="pass">Senha (Mínimo 8 caracteres):</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+	<div class="container">
+        <a class="btn btn-1" type="submit" name="submit">Enviar</a>
+    </div>
+	</body>
+</form>

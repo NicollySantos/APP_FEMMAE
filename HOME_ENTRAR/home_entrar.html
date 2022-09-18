@@ -1,0 +1,97 @@
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEMAE HOME</title>
+    <link rel="stylesheet" href="home_entrar.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+</style>
+</head>
+<body>
+    <img src="../imagens/fundo_roxo3.jpg" alt="" id="fundo">
+<div id="barra">
+    <img src="imagens/logo.jpg" id="logo">
+</div>
+
+	<div id="logotipo_box">
+	<img src="imagens/logotipo.png" id="logotipo">
+
+    <button id="duvidas">?</button>
+</div>
+<div id="cadastrar">
+    <P id="pergunta">NÃO TEM UMA CONTA?</P> 
+</div>
+<img src="imagens/vetora.png" id="fotoum">
+<div>
+    <button id="login" onclick="esc_ajuda()">FAÇA ASSINATURA AQUI!</button>
+</div>
+ <form action="/pagina-processa-dados-do-form" method="post" id="entrar"> 
+    <div id="nome">
+        <P>Se já tem conta</BR>BEM - VINDA(O)...</P>
+    </div>
+    <img src="../imagens/pessoa.png" alt="" id="pessoa">
+    <div>
+        <input type="Nome de Usuário" id="usuario" name="usuario_nomedeusuario" placeholder="Nome de Usuário"/>
+    </div>
+    <img src="../imagens/cadeado.png" alt="" id="cadeado">
+	<div>
+        <input type="password" id="pass" name="password"
+           minlength="8" required placeholder="Senha"/> 
+    </div>
+    <div class="container" class="texto">
+        <div id="botao" onclick="senha()">Enviar</div> 
+    </div>
+    <a href="../HOME/home.html"><div id="seta_volta">
+        <img src="../imagens/seta.png" alt="" id="voltar">
+    </div> </a> 
+</form>
+<div id="formulario">
+    <form id="cadastro"> 
+        <div id="titulo">
+            <P>CADASTRO</P>
+        </div>
+        <img src="../imagens/nome.svg" alt="" id="img_nome">
+        <div class="preencher">
+            <label for="nome">Nome:</label>
+            <input type="text" id="name" name="usuario_nome" class="espaco"/>
+        </div>
+        <img src="../imagens/email.png" alt="" id="img_email">
+        <div class="preencher">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="usuario_email" class="espaco"/>
+        </div>
+        <img src="../imagens/pessoa.png" alt="" id="img_user">
+        <div class="preencher">
+            <label for="Nome de Usuário">Nome de Usuário</label>
+            <input type="Nome de Usuário" id="Nome de Usuário" name="usuario_nomedeusuario" class="espaco"/>
+        </div>
+        <img src="../imagens/nasci.png" alt="" id="img_nasc">
+        <div  class="preencher">
+            <label for="data de nascimento">Data de Nascimento:</label>
+            <input type="text" id="data de nascimento" name="usuario_idade" class="espaco"/>
+        </div>
+        <img src="../PERFIL_1/local.png" alt="" id="img_local">
+        <div  class="preencher">
+            <label for="localização">Localização (UF, Estado):</label>
+            <input type="text" id="data de nascimento" name="usuario_idade" class="espaco"/>
+        </div>
+        <img src="../imagens/cadeado.png" alt="" id="img_senha">
+        <div class="preencher">
+            <label for="pass">Senha (Mínimo 8 caracteres):</label>
+            <input type="password"  name="password" id="password"
+                 required class="espaco">
+        </div>
+        <div class="container" class="texto" >
+            <div id="botao" onclick="boas()">Enviar</div> 
+        </div>
+        <div id="seta">
+        <img src="../imagens/seta.png" alt="" id="sair" onclick="esc_cad()">
+        </div> 
+    </form>
+   
+</div>
+<script src="home_entrar.js"></script>
+
+</body>
+</html> 

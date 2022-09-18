@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    background-color: #f8f5fc;
+}
+
+body, html{
+    height: 100%;
+}
+
+#barra{
+    font: 15pt century;
+    background-color: rgb(130, 42, 165); /* rgb(144, 26, 223) */
+    color: seashell;
+    width: 100%;
+    height: 70px;
+    line-height: 200px;
+    text-align: center;
+    position: fixed;
+}
+
+#ponto {
+	width: 110px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);;
+}		
+
+#logotipo_box {
+	position:fixed;
+	margin-top: -10px;
+	z-index:1;
+}
+
+#logotipo {
+	width: 100px;
+	padding-left: 90px;
+}
+
+#logo{
+    width: 55px;
+    margin-left: 20px;
+    margin-top: 7.5px;
+    float: left;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 10vw;
+    margin: 0 auto;
+    min-height: 89.4vh;
+    height: 90px;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.btn {
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 15px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 0;
+    background-image: linear-gradient(to right,  #ea00ff 5%, rgb(172, 62, 245) 51%, rgb(241, 128, 252) 100%);
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+.btn:hover {
+    background-position: right center; 
+} 
+
+section {
+    display: flex;
+    float: left;
+}
+
+button {
+   background-color: #a700a7;
+  border: 1px solid purple;
+  margin: 0 auto;
+  max-width:60%;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 200px;
+  display: block;
+  cursor: pointer;
+  height: 100px;
+ }
+  
+#ajuda{
+    position: fixed;
+    flex: 1 1 auto;
+    margin-left: 1220px;
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 8px;
+    background-image: linear-gradient(to right,  rgb(255, 0, 0) 5%,   #ca0202 51%, rgb(255, 0, 0) 100%);
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 20px;
+    border: 0;
+    box-shadow:2px 2px 2px rgb(255, 255, 255);
+	line-height: 8px;
+}
+
+#ajuda:hover {
+    background-position: right center; /* change the direction of the change here */
+    transform: scale(1.08);
+    transition: 0.5s;
+} 

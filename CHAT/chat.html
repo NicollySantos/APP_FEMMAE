@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT</title>
+    <link rel="stylesheet" href="chat.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+    </style>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css'>
+  <link rel='stylesheet' href='https://rawgit.com/marvelapp/devices.css/master/assets/devices.min.css'>
+  <link rel="stylesheet" href="style.css">	
+</head>
+<body>
+    <div id="barra">
+        <img src="imagens/logo.jpg" id="logo">
+    </div>
+    <div id="logotipo_box">
+        <img src="imagens/logotipo.png" id="logotipo">
+    </div>
+    <div>
+        <button id="ajuda" onclick="esc_ajuda()";>AUXÍLIO</button>
+    </div>
+    <div id="auxilio" >
+        <table id="ajudar">
+          <tr>
+            <td class="opc"> <a href="../AJUDAR/ajudar.html">AJUDAR</a></td>
+          </tr>
+          <tr>
+            <td class="opc"><a href="../SER AJUDADO/serajudado.html">SER AJUDADO</a></td>
+          </tr>
+        </table>
+    </div>
+    <section>
+      <div class="container">
+        <a href="../CONTEUDOS/CONTEUDOSfemaeOFC.html" class="btn btn-2">Conteudos</a>
+        <a  href="../BAIXADOS/baixados.html" class="btn btn-3">Meus Salvos</a> 
+        <a href="../FEED/FEEDNOTSFEMAE.html" class="btn btn-4">Feed</a> 
+        <a href="chat.html" class="btn btn-5">Chat</a>
+        <a href="../PERFIL_1/perfil_1.html" class="btn btn-6">Perfil</a>
+      </div>
+    </section>
+    <div id="contatos">
+        <div id="nome" class="linha">
+            <p id="no_chat">CHAT</p>
+            <img src="../imagens/filtro.png" id="filtro" alt="">
+        </div>
+        <table id="contato">
+            <tr>
+                <td class="rosto"><img src="imagens/rosto_mulher_1.png" alt="" srcset="" class="pessoas"><p class="pessoa">Josi Barbosa</p></td>
+            </tr>
+            <tr>
+                <td class="rosto"><img src="imagens/rosto_mulher_2.png" alt="" srcset="" class="pessoas"><p class="pessoa">Martha Rodrigues</p></td>
+            </tr>
+            <tr>
+                <td class="rosto"><img src="imagens/rosto_mulher_3.png" alt="" srcset="" class="pessoas"><p class="pessoa">Mariana Silva</p></td>
+            </tr>
+            <tr>
+                <td class="rosto"><img src="imagens/rosto_mulher_4.png" alt="" srcset="" class="pessoas"><p class="pessoa">Fernanda Mayumi</p></td>
+            </tr>
+            <tr>
+                <td class="rosto" ><img src="imagens/grupo.png" alt="" srcset="" class="pessoas"><p class="pessoa">Us Femae</p></td>
+            </tr>
+            <tr>
+                <td class="rosto"><img src="imagens/rosto_homem_1.png" alt="" srcset="" class="pessoas"><p class="pessoa">Tomás Castro</p></td>
+            </tr>
+            <tr>
+                <td class="rosto"><img src="imagens/rosto_mulher_5.png" alt="" srcset="" class="pessoas"><p class="pessoa">Lídia Pinheiros</p></td>
+            </tr>
+            
+        </table>
+    </div>
+
+    <div id="togou">
+        <table id="arquivos">
+            <tr>
+                <td class="opcoes">DADOS DO CONTATO</td>
+            </tr>
+            <tr>
+                <td class="opcoes">DOCUMENTOS</td>
+            </tr>
+            <tr>
+                <td class="opcoes">MÍDIAS</td>
+            </tr>
+        </table>
+    </div>
+    <div id="chat"> 
+        <div id="perfil">
+          <img src="imagens/rosto_mulher_1.png" id="ft_perfil">
+        </div>
+        <div id="barra_perfil">
+          <span id="nome_perfil">Josi Barbosa</span>
+        </div>
+        <div id="ligacao_tel">
+            <img src="imagens/icon_tel.png" alt="" id="telefone">
+        </div>    
+        <div id="ligacao_cam">
+            <img src="imagens/icon_cam.png" alt="" id="camera">
+        </div>
+        <div id="confi">
+            <img src="imagens/3_pontos.png" alt="" id="pontos" onclick="toggle()" >
+        </div>
+<!-- zap -->
+		<div class="page">
+		  <div class="box">
+			<div class="screen">
+			  <div class="screen-container">
+				<div class="status-bar">
+				  <div class="time"></div>
+				</div>
+				<div class="chat">
+				  <div class="chat-container">
+					
+					  
+					</div>
+					<div class="conversation">
+					  <div class="conversation-container">
+              <div class="message sent">
+                Olá, como está, tudo bem?
+                <span class="metadata">
+                    <span class="time"></span><span class="tick"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" id="msg-dblcheck-ack" x="2063" y="2076"><path d="M15.01 3.316l-.478-.372a.365.365 0 0 0-.51.063L8.666 9.88a.32.32 0 0 1-.484.032l-.358-.325a.32.32 0 0 0-.484.032l-.378.48a.418.418 0 0 0 .036.54l1.32 1.267a.32.32 0 0 0 .484-.034l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0l-.478-.372a.365.365 0 0 0-.51.063L4.566 9.88a.32.32 0 0 1-.484.032L1.892 7.77a.366.366 0 0 0-.516.005l-.423.433a.364.364 0 0 0 .006.514l3.255 3.185a.32.32 0 0 0 .484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z" fill="#4fc3f7"/></svg></span>
+                </span>
+              </div>
+              <div class="message received">
+               Tudo tranquilo. E vc?
+                <span class="metadata"><span class="time"></span></span>
+              </div>
+              <div class="message sent">
+                Tudo bem. Tá fznd o q?
+                <span class="metadata">
+                    <span class="time"></span><span class="tick"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" id="msg-dblcheck-ack" x="2063" y="2076"><path d="M15.01 3.316l-.478-.372a.365.365 0 0 0-.51.063L8.666 9.88a.32.32 0 0 1-.484.032l-.358-.325a.32.32 0 0 0-.484.032l-.378.48a.418.418 0 0 0 .036.54l1.32 1.267a.32.32 0 0 0 .484-.034l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0l-.478-.372a.365.365 0 0 0-.51.063L4.566 9.88a.32.32 0 0 1-.484.032L1.892 7.77a.366.366 0 0 0-.516.005l-.423.433a.364.364 0 0 0 .006.514l3.255 3.185a.32.32 0 0 0 .484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z" fill="#4fc3f7"/></svg></span>
+                </span>
+              </div>
+              <div class="message received">
+                Agora...relaxando!!! Ainda bem q já terminei o projeto e vc?
+                <span class="metadata"><span class="time"></span></span>
+              </div>
+              <div class="message sent">
+                Estamos finalizando o app ainda!
+                <span class="metadata">
+                    <span class="time"></span><span class="tick"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" id="msg-dblcheck-ack" x="2063" y="2076"><path d="M15.01 3.316l-.478-.372a.365.365 0 0 0-.51.063L8.666 9.88a.32.32 0 0 1-.484.032l-.358-.325a.32.32 0 0 0-.484.032l-.378.48a.418.418 0 0 0 .036.54l1.32 1.267a.32.32 0 0 0 .484-.034l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0l-.478-.372a.365.365 0 0 0-.51.063L4.566 9.88a.32.32 0 0 1-.484.032L1.892 7.77a.366.366 0 0 0-.516.005l-.423.433a.364.364 0 0 0 .006.514l3.255 3.185a.32.32 0 0 0 .484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z" fill="#4fc3f7"/></svg></span>
+                </span>
+              </div>
+              <div class="message received">
+                Que ótimo!! Precisam de alguma ajuda?
+                <span class="metadata"><span class="time"></span></span>
+              </div>
+              <div class="message sent">
+                Acho que por enquanto não, mas obrigada!!!
+                <span class="metadata">
+                    <span class="time"></span><span class="tick"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" id="msg-dblcheck-ack" x="2063" y="2076"><path d="M15.01 3.316l-.478-.372a.365.365 0 0 0-.51.063L8.666 9.88a.32.32 0 0 1-.484.032l-.358-.325a.32.32 0 0 0-.484.032l-.378.48a.418.418 0 0 0 .036.54l1.32 1.267a.32.32 0 0 0 .484-.034l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0l-.478-.372a.365.365 0 0 0-.51.063L4.566 9.88a.32.32 0 0 1-.484.032L1.892 7.77a.366.366 0 0 0-.516.005l-.423.433a.364.364 0 0 0 .006.514l3.255 3.185a.32.32 0 0 0 .484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z" fill="#4fc3f7"/></svg></span>
+                </span>
+              </div>
+              <div class="message sent">
+                Estou conseguindo lidar melhor com as linguagens...
+                <span class="metadata">
+                    <span class="time"></span><span class="tick"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" id="msg-dblcheck-ack" x="2063" y="2076"><path d="M15.01 3.316l-.478-.372a.365.365 0 0 0-.51.063L8.666 9.88a.32.32 0 0 1-.484.032l-.358-.325a.32.32 0 0 0-.484.032l-.378.48a.418.418 0 0 0 .036.54l1.32 1.267a.32.32 0 0 0 .484-.034l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0l-.478-.372a.365.365 0 0 0-.51.063L4.566 9.88a.32.32 0 0 1-.484.032L1.892 7.77a.366.366 0 0 0-.516.005l-.423.433a.364.364 0 0 0 .006.514l3.255 3.185a.32.32 0 0 0 .484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z" fill="#4fc3f7"/></svg></span>
+                </span>
+              </div>
+              <div class="message received">
+                Ah...isso é daora!! Mas de qqlr forma, se precisar de ajuda, só chamar blza?
+                <span class="metadata"><span class="time"></span></span>
+              </div>
+              <div class="message sent">
+                Podexa!!! Mas a gente dá conta, rlxa ;)
+                <span class="metadata">
+                    <span class="time"></span><span class="tick"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" id="msg-dblcheck-ack" x="2063" y="2076"><path d="M15.01 3.316l-.478-.372a.365.365 0 0 0-.51.063L8.666 9.88a.32.32 0 0 1-.484.032l-.358-.325a.32.32 0 0 0-.484.032l-.378.48a.418.418 0 0 0 .036.54l1.32 1.267a.32.32 0 0 0 .484-.034l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0l-.478-.372a.365.365 0 0 0-.51.063L4.566 9.88a.32.32 0 0 1-.484.032L1.892 7.77a.366.366 0 0 0-.516.005l-.423.433a.364.364 0 0 0 .006.514l3.255 3.185a.32.32 0 0 0 .484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z" fill="#4fc3f7"/></svg></span>
+                </span>
+              </div>
+						<div class="message received">
+						  <span id="random">...</span>
+						  <span class="metadata"><span class="time"></span></span>
+						</div>
+					  </div>
+					  <form class="conversation-compose">
+						<div class="emoji">
+						  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="smiley" x="3147" y="3209"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.153 11.603c.795 0 1.44-.88 1.44-1.962s-.645-1.96-1.44-1.96c-.795 0-1.44.88-1.44 1.96s.645 1.965 1.44 1.965zM5.95 12.965c-.027-.307-.132 5.218 6.062 5.55 6.066-.25 6.066-5.55 6.066-5.55-6.078 1.416-12.13 0-12.13 0zm11.362 1.108s-.67 1.96-5.05 1.96c-3.506 0-5.39-1.165-5.608-1.96 0 0 5.912 1.055 10.658 0zM11.804 1.01C5.61 1.01.978 6.034.978 12.23s4.826 10.76 11.02 10.76S23.02 18.424 23.02 12.23c0-6.197-5.02-11.22-11.216-11.22zM12 21.355c-5.273 0-9.38-3.886-9.38-9.16 0-5.272 3.94-9.547 9.214-9.547a9.548 9.548 0 0 1 9.548 9.548c0 5.272-4.11 9.16-9.382 9.16zm3.108-9.75c.795 0 1.44-.88 1.44-1.963s-.645-1.96-1.44-1.96c-.795 0-1.44.878-1.44 1.96s.645 1.963 1.44 1.963z" fill="#7d8489"/></svg>
+						</div>
+						<input class="input-msg" name="input" placeholder="Digite uma mensagem" autocomplete="off" autofocus></input>
+						<div class="photo">
+						  <i class="zmdi zmdi-camera"></i>
+						</div>
+						<button class="send">
+							<div class="circle">
+							  <i class="zmdi zmdi-mail-send"></i>
+							</div>
+						  </button>
+					  </form>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js'></script><script  src="./script.js"></script>
+		<!-- zap-->
+		
+		<!--img src="imagens/dialog.png" id="dialog">
+        <div id="posicao">
+          <div id="mensagem">
+              <img src="imagens/emoji_roxo.png" id="emoji" alt="" srcset="">
+              <textarea class="mss" name="mss" id="mss" ></textarea>
+              <img src="imagens/enviar.png" alt="" id="envia">
+          </div>
+        </div-->
+    </div>
+	
+    <div onclick="duvidas()">
+        <button id="duvidas">?</button>
+    </div>
+    <div id="duvida">
+      <table id="tabela">
+        <tr onclick="fecha()">
+          <td class="opcoes" >Sair</td>
+        </tr> 
+          <tr>
+              <td class="opc">Treinamento</td>
+          </tr>
+          <tr>
+              <td class="opc">Fale Conosco</td>
+          </tr>
+          <tr>
+              <td class="opc">Dados do Aplicativo</td>
+          </tr>
+          <tr>
+              <td class="opc">Política de Privacidade</td>
+          </tr>
+      </table>
+  </div>
+    <script type="text/javascript" src="chat.js"></script>
+</body>
+</html>
